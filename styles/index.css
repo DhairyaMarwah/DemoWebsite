@@ -9,14 +9,14 @@
 }
  .navbar{
      display: flex;justify-content: space-between;align-items: center;
-    padding: 10px 2%;
+    padding: 17px 2%;
     }
  .logo h1{
 
  }
  .nav-links{
     display: flex;
-    width: 32%;
+    width: 39%;
  }
  .nav-links ul{display: flex;}
 
@@ -228,9 +228,9 @@
 .prev {left: 40px;}
 .next{right: 40px;}
 .logo h1{font-size: 42px ;line-height: 50px ;font-weight: 500;font-family: Montserrat;}
-.second-section-landing h1{margin-bottom: 40px;
+.second-section-landing h1{margin-bottom: 50px;
 
-font-size: 32px ;font-weight: 400;line-height: 40px;font-family:Montserrat ;text-align: center;padding-top: 25px;
+font-size: 32px ;font-weight: 500;line-height: 40px;font-family:Montserrat ;text-align: center;padding-top: 45px;
 }
 .second-section-img1{width: 17%;}
 .second-section-images{display: flex; justify-content: space-around;width: 80%;margin: 0 auto;align-items: center;}
@@ -258,11 +258,14 @@ display: flex;flex-direction: column;align-items: center;justify-content: baseli
 .contact-details-container{
 	 
 }
-.container-inputs{display: flex;justify-content: space-around;align-items: center;}
-.input-feilds{display: flex;justify-content: center;align-items: center;flex-direction: column;}
-.input-feilds input:nth-child(2){margin: 7px 0;}
+.container-inputs{display: flex;justify-content: space-around;align-items: center;flex-direction: column	;}
+.input-feilds{display: flex;justify-content: center;align-items: center;flex-direction: column;width: 100%;}
+.input-feilds input{margin: 7px 0;width: 100%;}
 .input-feilds input{height: 32px;border: 1px solid #000;padding-left: 4px;border-radius: 5px;}
-.textarea-feild textarea{padding-left: 5px;border-radius: 5px;border: 1px solid #000; height: 110px;}
+.textarea-feild textarea{padding-left: 5px;border-radius: 5px;border: 1px solid #000; height: 110px;width: 100%;margin-top: 7px;}
+.submit-btn button{background-color: #1e1b1b;color: #fff;border: none;width: fit-content;padding: 5px 10px;font-size: 17px;
+    line-height: 20px;border-radius: 5px;margin-top: 15px; }
+.textarea-feild{width: 100%;}
 .google-iframe-container {width: 350px;margin-top: 20px; height: 150px; margin: 0 auto;margin-top: 30px;}
 .google-iframe-container iframe{width: 100%;height: 100%;}
 .contact-details-container h1{margin-bottom: 32px;}
@@ -313,7 +316,7 @@ width: 50%;
 }
 .team-and-activities-section p{	font-size: 22px ;padding: 0 9%; margin-top: 20px;margin-bottom: 70px; font-weight: 300;line-height: 30px;font-family:Montserrat ;}
 .team-and-active-cards{display: flex;width: 100%;}
-.team-card1{width: 25%;display: flex;justify-content: center;flex-direction: column;align-items: center;padding: 50px 0;}
+.team-card1{width: 25%;display: flex;justify-content: center;flex-direction: column;align-items: center;padding: 60px 0;}
 .team-card1 p{padding: 0 3%;}
 .team-card1 h1{margin: 0;
 	font-size: 42px;margin-bottom: 40px;
@@ -362,3 +365,11 @@ width: 50%;
    .whatsapp-logo img{width: 22px;padding-top: 4px;}
    .fb-logo img{width: 22px;padding-top: 4px;}
    .ig-logo img{width: 22px;padding-top: 4px;}
+   .academics-section{background-color: #1e1b1b;color: #fff;padding-top: 40px;padding-bottom: 40px;}
+   .academics-section button{color: #fff;border: 1px solid #fff;}
+   .contact-details-part h1{ font-size: 26px ;line-height: 50px ;font-weight: 600;
+   }
+   .contact-details-part p{
+	font-size: 18px ;line-height: 24px ;font-weight: 400;
+   }
+   .contact-details-part span{position: relative;top: 20px; font-size: 50px;}

@@ -177,7 +177,7 @@ body{
 /* 5 */
 @media screen and (max-width: 800px){
 	.myslide{
-		height: 500px;
+		height: 90vh;
 	}
 	.txt{
 		letter-spacing: 2px;
@@ -321,7 +321,7 @@ width: 50%;
 	font-size: 54px ;line-height: 50px ;font-weight: 600;font-family: Montserrat;
 }
 .team-and-activities-section p{	font-size: 22px ;padding: 0 9%; margin-top: 20px;margin-bottom: 70px; font-weight: 300;line-height: 30px;font-family:Montserrat ;}
-.team-and-active-cards{display: flex;width: 100%;}
+.team-and-active-cards{display: flex;width: 100%;flex-wrap: wrap;}
 .team-card1{width: 25%;display: flex;justify-content: center;flex-direction: column;align-items: center;padding: 60px 0;}
 .team-card1 p{padding: 0 3%;}
 .team-card1 h1{margin: 0;
@@ -362,7 +362,7 @@ width: 50%;
    .slider{font-family: Montserrat;}
    .teammatchup-section-first img{width: 35vw;}
    .nav-links ul li a{
-	font-size: 21px ; padding: 0 10px; font-weight: 400;line-height: 30px;font-family:Montserrat ;color: #000;
+	font-size: 18px ; padding: 0 10px; font-weight: 400;line-height: 30px;font-family:Montserrat ;color: #000;
    }
    .nav-links ul{align-items: center;}
    .location-link{}
@@ -386,7 +386,7 @@ width: 50%;
 	   width: 100px;
    }
    .third-section-cont{display: flex;z-index: 0;color: #fff;}
-   .third-section-cont h1{font-size: 32px ;font-weight: 800;line-height: 40px;font-family:Montserrat ;text-align: center;color: #fff;
+   .third-section-cont h1{font-size: 36px ;font-weight: 800;line-height: 40px;font-family:Montserrat ;text-align: center;color: #fff;
    }
    .third-section-cont > div{
 	   width: 50%;padding: 80px 0;
@@ -419,6 +419,14 @@ display: inline;opacity: 1;
 	.team-and-activities-section h1{font-size: 29px;
 		margin-bottom: 6px;}
 		card1 {font-size: 14px;;line-height: 23px;}
+		.testimonial-text p, .testimonial-text span {
+			font-size: 12px;
+			font-weight: 400;
+			line-height: 20px;
+			font-family: Montserrat;
+			text-align: center;
+			color: #fff;
+		}
 }	
 @media (max-width:800px) {	
 	.menu-btn{display: unset;position: relative;right: 30px;cursor: pointer;}
@@ -432,5 +440,51 @@ display: inline;opacity: 1;
 		line-height: 26px;}
 		.second-section-img1{
 			width: 26%;margin-bottom: 20px;
+		} 
+		.team-card1 {
+			padding: 35px 0;
 		}
+.team-card1 svg {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.team-card1 p {
+    font-size: 13px;
+    margin: 0;line-height: 22px;
+}
+.team-and-activities-section h1 {
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+.team-card1{width: 50%;}
+.teammatchup-section-first span, .teammatchup-section-second span{font-size: 38px;line-height: 38px;top: 36px;}
+.team-matchups-section h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 29px;
+    line-height: 41px; 
+}
+.teammatchup-section-second h1{font-size: 120px;}
+.teammatchup-section-second{padding-top: 140px;}
+.team-matchups-section-cards p{
+
+}
+.team-matchups-section-cards p {
+    font-size: 17px;
+    margin-top: 72px;
+    padding: 0 9%;
+    font-weight: 300;
+    line-height: 26px;
+    font-family: Montserrat;
+}
+.enquire-btn button {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 20px; 
+    padding: 4px 15px;
+    /* color: #000; */
+    border-radius: 9px;
+    font-weight: 300;
+}
 }

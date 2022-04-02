@@ -59,4 +59,9 @@ function slidefun(n) {
 // 	parallax.style.transform='translateY('+scrollPosition*.2+'px'
 // })
 
- 
+const hamburger=document.getElementById('menu-btn-id');
+const navwrap=document.getElementById('nav-links-id');
+hamburger.addEventListener('click',()=>{
+  console.log("hello");
+  navwrap.classList.toggle('show');
+});

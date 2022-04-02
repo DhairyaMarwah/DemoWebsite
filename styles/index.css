@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap");
 * {
+  font-family: Montserrat;
   text-decoration: none;
   margin: 0;
   padding: 0;
@@ -328,7 +329,7 @@ body {
 }
 .third-parallax-section {
   position: relative;
-  width: 100%;
+  width: 100%;padding: 25px 0;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -1148,3 +1149,37 @@ body {
 .testimonial-img{overflow: hidden;}
 .testimonial-img img:hover{transform: scale(1.3);}
 .testimonial-img img{transition: all 0.9s ease-in-out;}
+.our-pillars{
+  z-index: 1;color: #fff;
+}
+.our-pillar-card1 img{width: 70px;position: unset; 
+  top: unset;
+  left: unset;
+  height:unset;
+  object-fit: unset;}
+  .our-pillar-card1{ 
+      background-color: rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(78px);
+  
+  }
+  .our-pillar-card1 svg{width: 70px;fill: #fff; height: 70px;margin-bottom: 25px;}
+  .our-pillar-card1 h1{
+    font-size: 18px;
+  }
+  .our-pillars{font-family: Montserrat;}
+  .our-pillar-card1{
+
+    display: flex;flex-direction: column;align-items: center;border-radius: 20px;
+  }
+  .our-pillar-cards{
+    width: 90%;margin: 0 auto;display: flex;flex-wrap: wrap;justify-content: space-around;
+  }
+  .our-pillar-card1{width: 26%;padding: 20px 0;margin-bottom: 20px;}
+  .our-pillars{width: 90%;margin: 0 auto;}
+  .our-pillars > h1,.about-us-section h1{
+    text-align: center;margin-bottom: 29px;font-size: 42px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  .about-us-section{padding: 20px 0;}
+  .about-us-section p{text-align: center;padding: 0 5%;padding-bottom: 20px;}

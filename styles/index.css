@@ -1160,6 +1160,7 @@ body {
   .our-pillar-card1{ 
       background-color: rgba(0, 0, 0, 0.1);
       backdrop-filter: blur(78px);
+      -webkit-backdrop-filter: blur(78px);
   
   }
   .our-pillar-card1 svg{width: 70px;fill: #fff; height: 70px;margin-bottom: 25px;}

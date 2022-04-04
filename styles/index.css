@@ -1207,3 +1207,32 @@ body {
 }
 
 .our-pillar-card1 svg{width: 45px;height: 45px;}}
+.contact-container{ padding-right: 10px; box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;padding-top: 10px; padding-bottom: 10px; text-align: center;  font-family: "Montserrat"; background-color: #fff;width: 80%;margin: 0 auto;margin-bottom: 70px;margin-top: 40px;}
+.contact-container h1{ font-family: "Raleway";
+  font-style: normal;margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 42px;
+  margin-top: 22px; }
+  .contact-form{display: flex;justify-content: space-around;align-items: center;}
+  .contact-form-inputs{display: flex;width: 50%;flex-direction: column;}
+  .contact-form-inputs select{padding-right: 5px;}
+  .contact-form-inputs input,.contact-form-inputs textarea,.contact-form-inputs select{width: 80%;border: 1px solid rgba(0, 0, 0, 0.47);border-radius: 10px;margin: 0 auto; margin-bottom: 15px;padding-left: 7px;}
+  .contact-form-img img{width: 40vw;}
+  .contact-form-inputs input::placeholder,.contact-form-inputs textarea::placeholder,.contact-form-inputs select,.contact-form-inputs option{font-family: "Raleway";
+    font-style: normal;
+    /* font-weight: 00; */
+    font-size: 16px;
+}
+  .contact-form-inputs input,.contact-form-inputs select{height: 45px;}
+  .contact-form-inputs textarea{padding-top: 4px;}
+  .contact-form-inputs button{padding:7px 10px;margin-top: 20px;border-radius: 10px;text-align: center;display: flex;justify-content: center;align-items: center;width: 100px;margin: 0 auto;}
+  .start-now-btn{
+    background-color: #000;color: #fff;border: none;padding: 10px;
+  }
+  .Login-form{display: flex;align-items: center;justify-content: space-around;width: 70%;margin: 0 auto;}
+  .login-container h1{text-align: center;margin-top: 60px;margin-bottom: 40px;  font-weight: 600;font-family: Montserrat;
+    font-size: 42px;
+    line-height: 42px;}
+    .login-form-img{width: 52%;}

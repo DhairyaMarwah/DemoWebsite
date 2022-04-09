@@ -65,3 +65,4 @@ hamburger.addEventListener('click',()=>{
   console.log("hello");
   navwrap.classList.toggle('show');
 });
+

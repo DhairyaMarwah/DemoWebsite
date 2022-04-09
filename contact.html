@@ -8,28 +8,55 @@
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
+  <div class="navbar"> 
+    <div class="logo">
+        <img src="assets/logo.png" alt="logo">
+   <!-- <h1>Logo</h1> -->
+    </div>
+    <div class="menu-btn" id="menu-btn-id">
+        <img src="assets/menu.svg" alt="" />
+      </div>
+    <div class="nav-links" id="nav-links-id">
+        <ul> 
+            <li><a href="">Profile</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="bookevents.html">Book an Event</a></li> 
+            <li><a href="login.html">Login</a></li>
+            <!-- <li><a href="">+91 12345678</a></li> -->
+            <!-- <li class="location-link"><a  href="">india <img src="assets/location.png" alt=""></a></li>
+            <li class="whatsapp-logo"><a href=""><img src="assets/whatsapp.png" alt=""></a></li>
+            <li class="fb-logo"><a href=""><img src="assets/fb.png" alt=""></a></li>
+            <li class="ig-logo"><a href=""><img src="assets/insta.png" alt=""></a></li> -->
+        </ul>
+    </div>
+
+</div>
     <div class="contact-container">
         <h1>Contact US</h1>
-  
+
         <div class="contact-form">
           <div class="contact-form-img">
             <img src="assets/download.svg" />
           </div>
           <div class="contact-form-inputs">
-            <input type="text" placeholder="Name" />
-            <input type="text" placeholder="Email" />
-            
-            <input type="text" placeholder="Phone Number" />
-            <textarea
+            <form name="myform" onsubmit="return validateemail();">
+
+              <input type="text"  name="name"  placeholder="Name" />
+              <input type="text" pattern=".+@globex\.com" name="email" placeholder="Email" />
+              
+              <input type="text" pattern="[0-9]{9}" placeholder="Phone Number" />
+              <textarea
               name=""
               id=""
               cols="30"
               rows="10"
               placeholder="Message"
-            ></textarea>
-            <button class="start-now-btn">Submit</button>
+              ></textarea>
+              <button type="submit"  class="start-now-btn">Submit</button>
+            </form>
           </div>
         </div>
       </div>
+      <script src="validate.js"></script>
 </body>
 </html>

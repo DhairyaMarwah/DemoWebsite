@@ -1297,3 +1297,23 @@ body {
   transform: scale(1.1);
 }
 .text-container div{color: rgba(0, 0, 0, 0.6);}
+.event-open-page h1{font-family: Montserrat;text-align: center;margin-top: 60px;margin-bottom: 40px;  font-weight: 500;font-family: Montserrat;
+  font-size: 42px;
+  line-height: 42px;}
+  .event-open-page {text-align: center;font-family: Montserrat;}
+  .event-open-page input{
+    width: 300px;height: 40px;font-size: 18px;border-radius: 10px;border: 1px solid rgba(0, 0, 0, 0.6);padding: 0 5px;
+    /* line-height: px; */
+  }
+  .event-open-page button{padding: 4px 10px;border-radius: 10px;border: none;margin-top: 15px;
+    background-color: #000;color: #fff;width: fit-content;font-size: 16px;
+  }
+  .choose-slot-slots{
+    max-width: 600px;display: flex;margin: 0 auto;margin-top: 30px;flex-wrap: wrap;
+  }
+  .choose-slot-slots button{
+    transition: all 0.5s ease-in-out;cursor: pointer;    background-color: #fff;color: #000;border: 1px solid rgba(0, 0, 0, 0.8);font-size: 18px;width: 100px;margin: 0 10px;margin-bottom: 10px; padding: 10px 6px;
+  }
+  .choose-slot-slots button:hover{
+    background-color: #000;color: #fff;
+  }

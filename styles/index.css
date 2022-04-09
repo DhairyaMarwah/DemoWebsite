@@ -1317,3 +1317,13 @@ body {
   .choose-slot-slots button:hover{
     background-color: #000;color: #fff;
   }
+  @media (max-width:1000px) {
+    .contact-form{flex-direction: column;}
+    .contact-form-inputs{width: 100%;}
+    .contact-form-inputs textarea{height: 100px;}
+    .contact-form-inputs input, .contact-form-inputs select{height: 35px;}
+    .contact-container h1{    font-weight: 400;
+      font-size: 32px;
+      line-height: 42px;}
+      .Login-form{flex-direction: column;}
+  }

@@ -1327,3 +1327,7 @@ body {
       line-height: 42px;}
       .Login-form{flex-direction: column;}
   }
+  @media (max-width:660px) {
+    .book-events-cards > a{width: 48%;margin: 0 auto; }
+    .book-events-cards{flex-direction: column;width: 100%;}
+  }

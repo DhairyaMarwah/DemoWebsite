@@ -1241,7 +1241,7 @@ body {
 
 .a-box {
   display: inline-block;
-  width: 240px;
+  width: 100%;
   text-align: center;
 }
 
@@ -1289,7 +1289,8 @@ body {
 }
 .book-events-cards{display: flex;flex-wrap: wrap;width: 90%;margin: 0 auto;justify-content: space-around; margin-bottom: 40px;}
 .book-events-cards > a{
-  max-width: 300px;width: 40%;margin-bottom: 10px;
+  max-width: 248px;
+  width: 21%;margin-bottom: 10px;
   transition: all 0.7s ease-in-out;
 }
 .book-events-cards > a:hover{
@@ -1327,7 +1328,16 @@ body {
       line-height: 42px;}
       .Login-form{flex-direction: column;}
   }
-  @media (max-width:660px) {
-    .book-events-cards > a{width: 48%;margin: 0 auto; }
-    .book-events-cards{flex-direction: column;width: 100%;}
+ 
+  @media (max-width:1200px){
+    .book-events-cards > a{width: 26%;    max-width: 362px;}
+    .book-events-cards{width: 85%;}
+  } 
+  @media (max-width:1000px){
+    .book-events-cards > a{width: 39%;    max-width: 362px;}
+    .book-events-cards{width: 85%;max-width: 600px;}
+  } 
+  @media (max-width:640px) {
+    .book-events-cards > a{width: 58%;margin: 0 auto; }
+    .book-events-cards{flex-direction: column;width: 100%;max-width: 400px;}
   }

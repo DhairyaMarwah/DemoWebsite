@@ -66,25 +66,34 @@ hamburger.addEventListener('click',()=>{
   navwrap.classList.toggle('show');
 });
 
-const shareButton = document.querySelectorAll("button.shareButton")
-for(i=1;i<shareButton.length;i++){
+// const shareButton = document.querySelectorAll("button.shareButton")
+// for(i=1;i<shareButton.length;i++){
 
-	shareButton[0].addEventListener("click", (e) => {
-		for( let i=0; i < shareButton.length; i++ ) {
-			shareButton[i].classList.toggle("open")
-			shareButton[0].classList.remove("sent")
-		}
-	})
-}
+// 	shareButton[0].addEventListener("click", (e) => {
+// 		for( let i=0; i < shareButton.length; i++ ) {
+// 			shareButton[i].classList.toggle("open")
+// 			shareButton[0].classList.remove("sent")
+// 		}
+// 	})
+// }
 
-for( let i=1; i < shareButton.length; i++ ) {
+// for( let i=1; i < shareButton.length; i++ ) {
    
-   shareButton[i].addEventListener("click", (e) => {
+//    shareButton[i].addEventListener("click", (e) => {
       
-   for( let i=0; i < shareButton.length; i++ ) {
-      shareButton[i].classList.toggle("open")
-   }
-   shareButton[0].classList.toggle("sent")
-   })
-}
+//    for( let i=0; i < shareButton.length; i++ ) {
+//       shareButton[i].classList.toggle("open")
+//    }
+//    shareButton[0].classList.toggle("sent")
+//    })
+// }
 
+// function toggleShare(id){
+// 	console.log(id);
+// 	let allElements = document.querySelectorAll("button.shareButton")
+// 	let element = document.getElementById('sharebtn-'+id);
+// 	for(var i=0;i < allElements.length;i++){
+// 		allElements[i].classList.remove("sent");
+// 	}
+// 	element.classList.add("open");
+// }

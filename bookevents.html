@@ -57,11 +57,11 @@
                         <a href="bookeventopen.html">open</a>
                     </div>
                     <div class="content">
-                        <button class="shareButton main">
-                         <svg class="share" style="width:24px;height:24px" viewBox="0 0 24 24"><path d="M18,16.08C17.24,16.08 16.56,16.38 16.04,16.85L8.91,12.7C8.96,12.47 9,12.24 9,12C9,11.76 8.96,11.53 8.91,11.3L15.96,7.19C16.5,7.69 17.21,8 18,8A3,3 0 0,0 21,5A3,3 0 0,0 18,2A3,3 0 0,0 15,5C15,5.24 15.04,5.47 15.09,5.7L8.04,9.81C7.5,9.31 6.79,9 6,9A3,3 0 0,0 3,12A3,3 0 0,0 6,15C6.79,15 7.5,14.69 8.04,14.19L15.16,18.34C15.11,18.55 15.08,18.77 15.08,19C15.08,20.61 16.39,21.91 18,21.91C19.61,21.91 20.92,20.61 20.92,19A2.92,2.92 0 0,0 18,16.08Z" /></svg>
-                     <svg class="check" style="width:24px;height:24px" viewBox="0 0 24 24">    <path  d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
-                     <svg class="close" style="width:24px;height:24px" viewBox="0 0 24 24">
-                     <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
+                        <button class="shareButton main" id="sharebtn-1" onclick="toggleShare(1)" value="1">
+                                <svg class="share" style="width:24px;height:24px" viewBox="0 0 24 24"><path d="M18,16.08C17.24,16.08 16.56,16.38 16.04,16.85L8.91,12.7C8.96,12.47 9,12.24 9,12C9,11.76 8.96,11.53 8.91,11.3L15.96,7.19C16.5,7.69 17.21,8 18,8A3,3 0 0,0 21,5A3,3 0 0,0 18,2A3,3 0 0,0 15,5C15,5.24 15.04,5.47 15.09,5.7L8.04,9.81C7.5,9.31 6.79,9 6,9A3,3 0 0,0 3,12A3,3 0 0,0 6,15C6.79,15 7.5,14.69 8.04,14.19L15.16,18.34C15.11,18.55 15.08,18.77 15.08,19C15.08,20.61 16.39,21.91 18,21.91C19.61,21.91 20.92,20.61 20.92,19A2.92,2.92 0 0,0 18,16.08Z" /></svg>
+                            <svg class="check" style="width:24px;height:24px" viewBox="0 0 24 24">    <path  d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
+                            <svg class="close" style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
                        </button>
                        <button class="shareButton fb">
                          <svg style="width:24px;height:24px" viewBox="0 0 24 24"><path d="M17,2V2H17V6H15C14.31,6 14,6.81 14,7.5V10H14L17,10V14H14V22H10V14H7V10H10V6A4,4 0 0,1 14,2H17Z" /></svg></button>
@@ -87,7 +87,7 @@
                            <a href="bookeventopen.html">open</a>
                        </div>
                        <div class="content">
-                        <button class="shareButton main">
+                        <button class="shareButton main" id="sharebtn-2" onclick="toggleShare(2)" value="2">
                          <svg class="share" style="width:24px;height:24px" viewBox="0 0 24 24"><path d="M18,16.08C17.24,16.08 16.56,16.38 16.04,16.85L8.91,12.7C8.96,12.47 9,12.24 9,12C9,11.76 8.96,11.53 8.91,11.3L15.96,7.19C16.5,7.69 17.21,8 18,8A3,3 0 0,0 21,5A3,3 0 0,0 18,2A3,3 0 0,0 15,5C15,5.24 15.04,5.47 15.09,5.7L8.04,9.81C7.5,9.31 6.79,9 6,9A3,3 0 0,0 3,12A3,3 0 0,0 6,15C6.79,15 7.5,14.69 8.04,14.19L15.16,18.34C15.11,18.55 15.08,18.77 15.08,19C15.08,20.61 16.39,21.91 18,21.91C19.61,21.91 20.92,20.61 20.92,19A2.92,2.92 0 0,0 18,16.08Z" /></svg>
                      <svg class="check" style="width:24px;height:24px" viewBox="0 0 24 24">    <path  d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
                      <svg class="close" style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -117,7 +117,7 @@
                            <a href="bookeventopen.html">open</a>
                        </div>
                        <div class="content">
-                        <button class="shareButton main">
+                        <button class="shareButton main" id="sharebtn-3" onclick="toggleShare(3)" value="3">
                          <svg class="share" style="width:24px;height:24px" viewBox="0 0 24 24"><path d="M18,16.08C17.24,16.08 16.56,16.38 16.04,16.85L8.91,12.7C8.96,12.47 9,12.24 9,12C9,11.76 8.96,11.53 8.91,11.3L15.96,7.19C16.5,7.69 17.21,8 18,8A3,3 0 0,0 21,5A3,3 0 0,0 18,2A3,3 0 0,0 15,5C15,5.24 15.04,5.47 15.09,5.7L8.04,9.81C7.5,9.31 6.79,9 6,9A3,3 0 0,0 3,12A3,3 0 0,0 6,15C6.79,15 7.5,14.69 8.04,14.19L15.16,18.34C15.11,18.55 15.08,18.77 15.08,19C15.08,20.61 16.39,21.91 18,21.91C19.61,21.91 20.92,20.61 20.92,19A2.92,2.92 0 0,0 18,16.08Z" /></svg>
                      <svg class="check" style="width:24px;height:24px" viewBox="0 0 24 24">    <path  d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
                      <svg class="close" style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -147,7 +147,7 @@
                            <a href="bookeventopen.html">open</a>
                        </div>
                        <div class="content">
-                        <button class="shareButton main">
+                        <button class="shareButton main" id="sharebtn-4" onclick="toggleShare(4)" value="4">
                          <svg class="share" style="width:24px;height:24px" viewBox="0 0 24 24"><path d="M18,16.08C17.24,16.08 16.56,16.38 16.04,16.85L8.91,12.7C8.96,12.47 9,12.24 9,12C9,11.76 8.96,11.53 8.91,11.3L15.96,7.19C16.5,7.69 17.21,8 18,8A3,3 0 0,0 21,5A3,3 0 0,0 18,2A3,3 0 0,0 15,5C15,5.24 15.04,5.47 15.09,5.7L8.04,9.81C7.5,9.31 6.79,9 6,9A3,3 0 0,0 3,12A3,3 0 0,0 6,15C6.79,15 7.5,14.69 8.04,14.19L15.16,18.34C15.11,18.55 15.08,18.77 15.08,19C15.08,20.61 16.39,21.91 18,21.91C19.61,21.91 20.92,20.61 20.92,19A2.92,2.92 0 0,0 18,16.08Z" /></svg>
                      <svg class="check" style="width:24px;height:24px" viewBox="0 0 24 24">    <path  d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
                      <svg class="close" style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -178,7 +178,7 @@
                            
                        </div>
                        <div class="content">
-                        <button class="shareButton main">
+                        <button class="shareButton main" id="sharebtn-5" onclick="toggleShare(5)" value="5">
                          <svg class="share" style="width:24px;height:24px" viewBox="0 0 24 24"><path d="M18,16.08C17.24,16.08 16.56,16.38 16.04,16.85L8.91,12.7C8.96,12.47 9,12.24 9,12C9,11.76 8.96,11.53 8.91,11.3L15.96,7.19C16.5,7.69 17.21,8 18,8A3,3 0 0,0 21,5A3,3 0 0,0 18,2A3,3 0 0,0 15,5C15,5.24 15.04,5.47 15.09,5.7L8.04,9.81C7.5,9.31 6.79,9 6,9A3,3 0 0,0 3,12A3,3 0 0,0 6,15C6.79,15 7.5,14.69 8.04,14.19L15.16,18.34C15.11,18.55 15.08,18.77 15.08,19C15.08,20.61 16.39,21.91 18,21.91C19.61,21.91 20.92,20.61 20.92,19A2.92,2.92 0 0,0 18,16.08Z" /></svg>
                      <svg class="check" style="width:24px;height:24px" viewBox="0 0 24 24">    <path  d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
                      <svg class="close" style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -208,7 +208,7 @@
                            <a href="bookeventopen.html">open</a>
                        </div>
                        <div class="content">
-                        <button class="shareButton main">
+                        <button class="shareButton main" id="sharebtn-6" onclick="toggleShare(6)" value="6">
                          <svg class="share" style="width:24px;height:24px" viewBox="0 0 24 24"><path d="M18,16.08C17.24,16.08 16.56,16.38 16.04,16.85L8.91,12.7C8.96,12.47 9,12.24 9,12C9,11.76 8.96,11.53 8.91,11.3L15.96,7.19C16.5,7.69 17.21,8 18,8A3,3 0 0,0 21,5A3,3 0 0,0 18,2A3,3 0 0,0 15,5C15,5.24 15.04,5.47 15.09,5.7L8.04,9.81C7.5,9.31 6.79,9 6,9A3,3 0 0,0 3,12A3,3 0 0,0 6,15C6.79,15 7.5,14.69 8.04,14.19L15.16,18.34C15.11,18.55 15.08,18.77 15.08,19C15.08,20.61 16.39,21.91 18,21.91C19.61,21.91 20.92,20.61 20.92,19A2.92,2.92 0 0,0 18,16.08Z" /></svg>
                      <svg class="check" style="width:24px;height:24px" viewBox="0 0 24 24">    <path  d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
                      <svg class="close" style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -238,7 +238,7 @@
                            <a href="bookeventopen.html">open</a>
                        </div>
                        <div class="content">
-                        <button class="shareButton main">
+                        <button class="shareButton main" id="sharebtn-7" onclick="toggleShare(7)" value="7">
                          <svg class="share" style="width:24px;height:24px" viewBox="0 0 24 24"><path d="M18,16.08C17.24,16.08 16.56,16.38 16.04,16.85L8.91,12.7C8.96,12.47 9,12.24 9,12C9,11.76 8.96,11.53 8.91,11.3L15.96,7.19C16.5,7.69 17.21,8 18,8A3,3 0 0,0 21,5A3,3 0 0,0 18,2A3,3 0 0,0 15,5C15,5.24 15.04,5.47 15.09,5.7L8.04,9.81C7.5,9.31 6.79,9 6,9A3,3 0 0,0 3,12A3,3 0 0,0 6,15C6.79,15 7.5,14.69 8.04,14.19L15.16,18.34C15.11,18.55 15.08,18.77 15.08,19C15.08,20.61 16.39,21.91 18,21.91C19.61,21.91 20.92,20.61 20.92,19A2.92,2.92 0 0,0 18,16.08Z" /></svg>
                      <svg class="check" style="width:24px;height:24px" viewBox="0 0 24 24">    <path  d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
                      <svg class="close" style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -268,7 +268,7 @@
                            <a href="bookeventopen.html">open</a>
                        </div>
                        <div class="content">
-                        <button class="shareButton main">
+                        <button class="shareButton main" id="sharebtn-8" onclick="toggleShare(8)" value="8">
                          <svg class="share" style="width:24px;height:24px" viewBox="0 0 24 24"><path d="M18,16.08C17.24,16.08 16.56,16.38 16.04,16.85L8.91,12.7C8.96,12.47 9,12.24 9,12C9,11.76 8.96,11.53 8.91,11.3L15.96,7.19C16.5,7.69 17.21,8 18,8A3,3 0 0,0 21,5A3,3 0 0,0 18,2A3,3 0 0,0 15,5C15,5.24 15.04,5.47 15.09,5.7L8.04,9.81C7.5,9.31 6.79,9 6,9A3,3 0 0,0 3,12A3,3 0 0,0 6,15C6.79,15 7.5,14.69 8.04,14.19L15.16,18.34C15.11,18.55 15.08,18.77 15.08,19C15.08,20.61 16.39,21.91 18,21.91C19.61,21.91 20.92,20.61 20.92,19A2.92,2.92 0 0,0 18,16.08Z" /></svg>
                      <svg class="check" style="width:24px;height:24px" viewBox="0 0 24 24">    <path  d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
                      <svg class="close" style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -288,4 +288,33 @@
           <script src="js/card.js"></script>
 </body>
 
+</body>
+<script>
+  function toggleShare(id){
+    console.log(id);
+    let allElements = document.querySelectorAll("button.shareButton")
+    let element = document.getElementById('sharebtn-'+id);
+    console.log(element.classList);
+    if(element.classList.contains('open')){
+      element.classList.remove('open');
+      element.classList.add('close');
+      for(let i=0;i<allElements.length;i++){
+        allElements[i].classList.remove('open');
+        allElements[i].classList.add('close');
+      }
+    }
+    else{
+      element.classList.remove('close');
+      element.classList.add('open');
+      for(let i=0;i<allElements.length;i++){
+        allElements[i].classList.remove('close');
+        allElements[i].classList.remove('open');
+      }
+    }
+    // for(var i=0;i < allElements.length;i++){
+    //   allElements[i].classList.remove("sent");
+    // }
+    // element.classList.add("open");
+  }
+</script>
 </html>

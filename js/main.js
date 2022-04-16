@@ -73,10 +73,10 @@ const loaderwrap=document.getElementById('loader-wrap');
 // 	loader.classList.toggle('hide-lottie')
 // 	loaderwrap.classList.toggle('hide-lottie-wrap')
 // },2300)
-document.addEventListener("DOMContentLoaded", function() {
+// document.addEventListener("DOMContentLoaded", function() {
 	setTimeout(()=>{
 
 		loader.classList.toggle('hide-lottie')
 		loaderwrap.classList.toggle('hide-lottie-wrap')
-	},3300)
-  });
+	},2700)
+//   });

@@ -1516,6 +1516,9 @@ body {
     @media (max-width:600px) {
       .loader{top: -100px;}
     }
+    @media (max-width:500px) {
+      .loader{top: unset;top: 300px;}
+    }
     .hide-lottie{display: none}
      .loader-wrap{overflow: hidden;height: 100vh;}
      .hide-lottie-wrap{height: unset;}

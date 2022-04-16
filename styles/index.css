@@ -1495,3 +1495,17 @@ body {
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
       border-radius: 5px; */
     }
+
+    .loader{width: 100%;margin: 0 auto;position: relative;top: -800px;}
+    @media (max-width:1000px) {
+      .loader{top: -600px;}
+    }
+    @media (max-width:800px) {
+      .loader{top: -500px;}
+    }
+    @media (max-width:600px) {
+      .loader{top: -400px;}
+    }
+    .hide-lottie{display: none}
+     .loader-wrap{overflow: hidden;height: 100vh;}
+     .hide-lottie-wrap{height: unset;}

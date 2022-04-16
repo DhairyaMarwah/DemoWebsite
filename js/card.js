@@ -21,3 +21,5 @@ for( let i=1; i < shareButton.length; i++ ) {
    })
 }
 
+
+const share=document.getElementsByClassName("sharebtn")

@@ -65,3 +65,11 @@ hamburger.addEventListener('click',()=>{
   console.log("hello");
   navwrap.classList.toggle('show');
 });
+const loader=document.getElementById('lottie-loader');
+const loaderwrap=document.getElementById('loader-wrap');
+// window.onload()
+
+setTimeout(()=>{
+	loader.classList.toggle('hide-lottie')
+	loaderwrap.classList.toggle('hide-lottie-wrap')
+},2300)

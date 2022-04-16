@@ -24,8 +24,11 @@ body {
 }
 .nav-links {
   display: flex;
-  width: 39%;
+  width: 44%;
 }
+
+
+ 
 .nav-links ul {
   display: flex;
 }
@@ -1522,3 +1525,10 @@ body {
     .hide-lottie{display: none}
      .loader-wrap{overflow: hidden;height: 100vh;}
      .hide-lottie-wrap{height: unset;}
+     @media (max-width:1350px) {
+      .profile-page-inputs{padding: 0 18%; }
+      .profile-page-inputs input{width: 28vw;}
+      .nav-links { 
+        width: 54%;
+      }
+    }

@@ -78,5 +78,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
 		loader.classList.toggle('hide-lottie')
 		loaderwrap.classList.toggle('hide-lottie-wrap')
-	},2300)
+	},3300)
   });

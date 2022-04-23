@@ -1561,3 +1561,19 @@ body {
 
 
     .choose-section{display: flex;justify-content: space-between;align-items: center;width: 90%;margin: 0 auto;}
+    @media (max-width:1200px) {
+      .about-us-text h1, .our-services-about h1, .choose-slot-page >h1{font-size:34px;font-weight:500;margin-bottom: 5px;}
+      .our-services-about{margin-top: 10px;}
+      .alternate-img img{width: 50vw;height: 200px;object-fit: cover;margin-bottom: 15px;}
+      .alternate-text p{padding: 0 5%;opacity: 0.8;}
+      .detail-section{width: 90%;}
+      .detail-section p{font-size:20px;padding: 0 5%;}
+      .detail-section h1{font-size: 36px;}
+      .about-us-section{padding-top: 0;}
+      .header-img img{width: 80vw;height: 340px;}
+      .alternate-section>div{flex-direction: column;}
+      .alternate-section>div:nth-child(even){flex-direction: column;}
+      .alternate-text{max-width: unset;}
+      .about-us-first{flex-direction: column;}
+      .about-us-text p{width: unset;font-size: 18px;padding: 0 2%;}
+    }

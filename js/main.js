@@ -80,3 +80,30 @@ const loaderwrap=document.getElementById('loader-wrap');
 		loaderwrap.classList.toggle('hide-lottie-wrap')
 	},2700)
 //   });
+
+
+
+
+
+
+$('.team-and-active-cards').slick({
+	slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplaySpeed: 1000,
+  infinite: true,
+  autoplay: true, 
+   
+  speed: 600,
+  arrows: false,
+  });
+  $('.testimonials-cards').slick({
+	slidesToShow: 2,
+  slidesToScroll: 1,
+//   autoplaySpeed: 2000,
+  infinite: true,
+//   autoplay: true, 
+   
+  speed: 400,
+//   arrows: false,
+  });
+	  

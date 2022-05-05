@@ -308,8 +308,8 @@ body {
   text-align: center;
 }
 .second-section-img1 img {
-  width: 100px;
-  position: absolute;
+  width: 92px;height: 92px;
+  /* position: absolute; */
 }
 .second-section-landing {
   background-color: #fff;
@@ -488,17 +488,17 @@ body {
   display: flex;
   align-items: inherit;
 }
-.testimonials-cards > div {
+.slick-track > div {
   width: 50%;
 }
 .testimonial-card1 {
-  display: flex;
+  display: flex !important;
   justify-content: center;
   align-items: center;
 }
 .testimonial-text {
   padding: 5px 3%;
-  background-color: #1e1b1b;
+  /* background-color: #1e1b1b; */
   height: 100%;
   justify-content: center;
   position: relative;
@@ -667,7 +667,7 @@ body {
   font-size: 16px;
   margin: 0;
 }
-.team-and-active-cards > div:nth-child(even) {
+.slick-track > div:nth-child(even) {
   background-color: #1e1b1b;
   color: #fff;
 }
@@ -676,7 +676,7 @@ body {
   height: 100px;
   margin-bottom: 40px;
 }
-.team-and-active-cards > div:nth-child(even) svg {
+.slick-track > div:nth-child(even) svg {
   fill: #fff;
 }
 ::-webkit-scrollbar {
@@ -836,7 +836,7 @@ body {
   display: none;
 }
 .logo img {
-  width: 100px;
+  width: 140px;
 }
 .third-section-cont {
   display: flex;
@@ -1044,10 +1044,10 @@ body {
   .testimonials-cards {
     flex-wrap: wrap;
   }
-  .testimonials-cards > div {
+ .testimonials-cards  .slick-track > div {
     width: 100%;
   }
-  .testimonials-cards > div:nth-child(2) {
+  .testimonials-cards  .slick-track > div:nth-child(2) {
     flex-direction: row-reverse;
   }
   .testimonial-img img {
@@ -1550,7 +1550,7 @@ body {
       line-height: 67px;}
       .choose-slot-page >h1{font-size: 54px;text-align: center;margin-top: 30px;margin-bottom: 40px;}
     /* .about-us-img{width: 40%;} */
-    .about-us-img img{width: 48vw;position: relative;top: -90px;z-index: -1;}
+    .about-us-img img{width: 44vw;position: relative;top: -90px;z-index: -1;}
     .about-us-second{flex-direction: row-reverse;}
     .our-services-about {text-align: center;margin-top: 50px;}
     .our-services-about img{width: 70vw;margin-top: 100px;margin-bottom: 100px;}
@@ -1577,3 +1577,12 @@ body {
       .about-us-first{flex-direction: column;}
       .about-us-text p{width: unset;font-size: 18px;padding: 0 2%;}
     }
+    @media (max-width:1000px) {
+      .second-section-img1 img{width: 82px;height: 82px;}
+      .second-section-img1{width: 26%;}
+      .second-section-img1{margin-bottom: 20px;}
+    }
+    @media (max-width:600px) {
+      .second-section-img1 img{width: 52px;height: 52px;}  
+    }
+    .testimonials-cards .slick-track {background-color: #1e1b1b;}

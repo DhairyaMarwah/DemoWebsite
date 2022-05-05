@@ -89,21 +89,27 @@ const loaderwrap=document.getElementById('loader-wrap');
 $('.team-and-active-cards').slick({
 	slidesToShow: 4,
   slidesToScroll: 1,
-  autoplaySpeed: 1000,
+//   autoplaySpeed: 1000,
   infinite: true,
-  autoplay: true, 
-   
-  speed: 600,
-  arrows: false,
+//   autoplay: true, 
+  pauseOnHover:false,
+  pauseOnFocus:false,
+//   speed: 600,
+//   arrows: false,
+prevArrow:"<button type='button' class='slick-prev pull-left '><</button>",
+nextArrow:"<button type='button' class='slick-next pull-right'>></button>"
   });
   $('.testimonials-cards').slick({
 	slidesToShow: 2,
   slidesToScroll: 1,
-//   autoplaySpeed: 2000,
+  pauseOnHover:false,
+pauseOnFocus:false,
+  autoplaySpeed: 2300,
   infinite: true,
-//   autoplay: true, 
+  autoplay: true, 
    
-  speed: 400,
-//   arrows: false,
+  speed: 500,
+  arrows: false,
+ 
   });
 	  

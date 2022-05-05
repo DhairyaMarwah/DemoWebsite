@@ -1586,3 +1586,7 @@ body {
       .second-section-img1 img{width: 52px;height: 52px;}  
     }
     .testimonials-cards .slick-track {background-color: #1e1b1b;}
+
+ .slick-next,.slick-prev{font-size: 30px;width: 40px;height: 40px;border-radius: 50%;border: none;cursor: pointer;border: 1px solid rgba(0,0,0,0.2)}
+ .slick-prev{position: absolute;left: 15px;top: 40%;}
+ .slick-next{position: absolute;right: 15px;top: 40%;}

@@ -94,11 +94,30 @@ $('.team-and-active-cards').slick({
 //   autoplay: true, 
   pauseOnHover:false,
   pauseOnFocus:false,
+  prevArrow:"<button type='button' class='slick-prev pull-left '><</button>",
+  nextArrow:"<button type='button' class='slick-next pull-right'>></button>",
+  responsive: [
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 400,
+      settings: {
+        slidesToShow: 1,
+        // centerMode: true,
+        autoplaySpeed: 4000,
+        slidesToScroll: 1,
+      }
+    },
+  ],
 //   speed: 600,
 //   arrows: false,
-prevArrow:"<button type='button' class='slick-prev pull-left '><</button>",
-nextArrow:"<button type='button' class='slick-next pull-right'>></button>"
   });
+
   $('.testimonials-cards').slick({
 	slidesToShow: 2,
   slidesToScroll: 1,
@@ -110,6 +129,24 @@ pauseOnFocus:false,
    
   speed: 500,
   arrows: false,
+  responsive: [
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        // centerMode: true,
+        autoplaySpeed: 4000,
+        slidesToScroll: 1,
+      }
+    },
+  ],
  
   });
 	  

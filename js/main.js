@@ -1,3 +1,6 @@
+if(window.location.pathname==="/index.html"){
+
+
 const myslide = document.querySelectorAll('.myslide'),
 	  dot = document.querySelectorAll('.dot');
 let counter = 1;
@@ -38,49 +41,10 @@ function slidefun(n) {
 	if(n < 1){
 	   counter = myslide.length;
 	   }
+     console.log(myslide.length);
 	myslide[counter - 1].style.display = "block";
 	dot[counter - 1].className += " active";
 }
-
-
-
-
-
-
-
-// window.addEventListener('scroll',function(){
-// 	const parallax=this.document.querySelector('.parallax-img')
-// 	let scrollPosition=window.pageYOffset;
-// 	parallax.style.transform='translateY('+scrollPosition*.5+'px'
-// })
-// window.addEventListener('scroll',function(){
-// 	const parallax=this.document.querySelector('.parallax-text-part')
-// 	let scrollPosition=window.pageYOffset;
-// 	parallax.style.transform='translateY('+scrollPosition*.2+'px'
-// })
-
-const hamburger=document.getElementById('menu-btn-id');
-const navwrap=document.getElementById('nav-links-id');
-hamburger.addEventListener('click',()=>{
-  console.log("hello");
-  navwrap.classList.toggle('show');
-});
-const loader=document.getElementById('lottie-loader');
-const loaderwrap=document.getElementById('loader-wrap');
-// window.onload()
-
-// setTimeout(()=>{
-// 	loader.classList.toggle('hide-lottie')
-// 	loaderwrap.classList.toggle('hide-lottie-wrap')
-// },2300)
-// document.addEventListener("DOMContentLoaded", function() {
-	setTimeout(()=>{
-
-		loader.classList.toggle('hide-lottie')
-		loaderwrap.classList.toggle('hide-lottie-wrap')
-	},2700)
-//   });
-
 
 
 
@@ -150,3 +114,40 @@ pauseOnFocus:false,
  
   });
 	  
+
+
+  const loader=document.getElementById('lottie-loader');
+const loaderwrap=document.getElementById('loader-wrap');
+// window.onload()
+
+// setTimeout(()=>{
+// 	loader.classList.toggle('hide-lottie')
+// 	loaderwrap.classList.toggle('hide-lottie-wrap')
+// },2300)
+// document.addEventListener("DOMContentLoaded", function() {
+	setTimeout(()=>{
+
+		loader.classList.toggle('hide-lottie')
+		loaderwrap.classList.toggle('hide-lottie-wrap')
+	},2700)
+//   });
+
+}
+
+
+
+
+
+ 
+
+const hamburger=document.getElementById('menu-btn-id');
+const navwrap=document.getElementById('nav-links-id');
+hamburger.addEventListener('click',()=>{
+  console.log("hello");
+  navwrap.classList.toggle('show');
+});
+
+
+
+
+

@@ -39,7 +39,7 @@ body {
   background: #2c3e50; /* darckblue */
 }
 .myslide {
-  min-height: 100vhpx;
+  min-height: 100vh;
   display: none;
   overflow: hidden;
 }
